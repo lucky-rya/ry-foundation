@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "基础工具函数集合",
   "main": "dist/index.js",
-  "types": "types/index.d.ts",
+ 
    "files": [
     "dist",
     "types"
