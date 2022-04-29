@@ -1,0 +1,27 @@
+{
+  "name": "ry-foundation-test",
+  "version": "1.0.0",
+  "description": "基础工具函数集合",
+  "main": "dist/index.js",
+  "scripts": {
+    
+       "build": "rm -rf dist types && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucky-rya/ry-foundation.git"
+  },
+  "keywords": [
+    "foundation",
+    "utils"
+  ],
+  "author": "renya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucky-rya/ry-foundation/issues"
+  },
+  "homepage": "https://github.com/lucky-rya/ry-foundation#readme",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  }
+}
