@@ -1,16 +1,14 @@
 {
   "name": "ry-foundation-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "基础工具函数集合",
   "main": "dist/index.js",
- 
-   "files": [
+  "files": [
     "dist",
     "types"
   ],
   "scripts": {
-    
-       "build": "rm -rf dist types && tsc"
+    "build": "rm -rf dist types && tsc"
   },
   "repository": {
     "type": "git",
@@ -30,9 +28,8 @@
     "typescript": "^4.6.4"
   },
   "publishConfig": {
-      "registry": "https://registry.npmjs.org/",
-      "main": "lib/index.js",
-      "types": "lib/index.d.ts"
-       
-   }
+    "registry": "https://registry.npmjs.org/",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts"
+  }
 }
