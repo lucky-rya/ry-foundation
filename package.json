@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "description": "基础工具函数集合",
   "main": "dist/index.js",
+  "types": "types/index.d.ts",
    "files": [
-    "dist"
+    "dist",
+    "types"
   ],
   "scripts": {
     
@@ -31,5 +33,6 @@
       "registry": "https://registry.npmjs.org/",
       "main": "lib/index.js",
       "types": "lib/index.d.ts"
+       
    }
 }
