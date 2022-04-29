@@ -1,6 +1,6 @@
 {
   "name": "ry-foundation-test",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "基础工具函数集合",
   "main": "dist/index.js",
   "files": [
