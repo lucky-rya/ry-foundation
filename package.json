@@ -1,8 +1,11 @@
 {
   "name": "ry-foundation-test",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "基础工具函数集合",
   "main": "dist/index.js",
+   "files": [
+    "dist"
+  ],
   "scripts": {
     
        "build": "rm -rf dist types && tsc"
@@ -23,5 +26,10 @@
   "homepage": "https://github.com/lucky-rya/ry-foundation#readme",
   "dependencies": {
     "typescript": "^4.6.4"
-  }
+  },
+  "publishConfig": {
+      "registry": "https://registry.npmjs.org/",
+      "main": "lib/index.js",
+      "types": "lib/index.d.ts"
+   }
 }
