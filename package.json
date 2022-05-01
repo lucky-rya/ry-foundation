@@ -1,6 +1,6 @@
 {
-  "name": "ry-yar",
-  "version": "0.2.5-beta.0",
+  "name": "ry-get-color",
+  "version": "0.0.0-development",
   "description": "get random color",
   "main": "dist/index.js",
   "type": "module",
@@ -9,11 +9,17 @@
     "types"
   ],
   "scripts": {
-    "build": "rm -rf dist types && tsc"
+    "test": "mocha src/index.test.js",
+    "build": "rm -rf dist types && tsc",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucky-rya/ry-foundation.git"
+    "url": "https://github.com/lucky-rya/ry-foundation.git"
+  },
+  "release": {
+    "githubUrl": "https://github.com/lucky-rya/ry-foundation.git",
+    "verifyConditions": "condition-travis-enterprise"
   },
   "keywords": [
     "foundation",
@@ -26,6 +32,9 @@
   },
   "homepage": "https://github.com/lucky-rya/ry-foundation#readme",
   "dependencies": {
+    "@types/node": "^17.0.30",
+    "condition-travis-enterprise": "^1.0.0",
+    "semantic-release-cli": "^5.4.4",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4",
     "unique-random-array": "^3.0.0"
@@ -36,6 +45,9 @@
     "types": "lib/index.d.ts"
   },
   "devDependencies": {
-    "babel-plugin-dynamic-import-node": "^2.3.3"
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "semantic-release": "^19.0.2"
   }
 }
