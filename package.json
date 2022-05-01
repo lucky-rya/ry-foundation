@@ -1,6 +1,6 @@
 {
   "name": "ry-yar",
-  "version": "0.0.5",
+  "version": "0.1.5",
   "description": "get random color",
   "main": "dist/index.js",
   "type": "module",
