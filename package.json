@@ -1,8 +1,9 @@
 {
-  "name": "ry-foundation-test",
+  "name": "ry-yar",
   "version": "0.0.4",
-  "description": "基础工具函数集合",
+  "description": "get random color",
   "main": "dist/index.js",
+  "type": "module",
   "files": [
     "dist",
     "types"
@@ -25,11 +26,16 @@
   },
   "homepage": "https://github.com/lucky-rya/ry-foundation#readme",
   "dependencies": {
-    "typescript": "^4.6.4"
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4",
+    "unique-random-array": "^3.0.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "main": "lib/index.js",
     "types": "lib/index.d.ts"
+  },
+  "devDependencies": {
+    "babel-plugin-dynamic-import-node": "^2.3.3"
   }
 }
