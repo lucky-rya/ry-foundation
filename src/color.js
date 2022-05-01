@@ -5,6 +5,7 @@
 	"blue",
 	"yellow",
 	"green",
-	"pink"
+	"pink",
+	"#CCC"
 
 ]
