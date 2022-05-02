@@ -11,7 +11,8 @@
   "scripts": {
     "test": "mocha src/index.test.js",
     "build": "rm -rf dist types && tsc",
-    "semantic-release": "semantic-release"
+    "semantic-release-cli": "semantic-release-cli",
+    "commit":"git-cz"
   },
   "repository": {
     "type": "git",
@@ -33,7 +34,9 @@
   "homepage": "https://github.com/lucky-rya/ry-foundation#readme",
   "dependencies": {
     "@types/node": "^17.0.30",
+    "commitizen": "^4.2.4",
     "condition-travis-enterprise": "^1.0.0",
+    "cz-conventional-changelog": "^3.3.0",
     "semantic-release-cli": "^5.4.4",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4",
