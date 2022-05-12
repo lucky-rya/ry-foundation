@@ -1,4 +1,4 @@
-# ym's developing foundations functions
+# ry's developing foundations functions
 
 
 ## how to write a readme.md?
